@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="001_Smoke_Test - clear all data on account, PART_2">
+
+    <parameter name="path" value="/"/>
+
+    <listeners>
+        <listener class-name="listeners.ListenerResultTestsManager" />
+    </listeners>
+
+    <test name="Test">
+        <classes>
+
+            <class name="manager.config.Test_001_Part2_SM_ClearAllDataOnAccount"/>
+
+        </classes>
+    </test>
+    <!-- Test -->
+</suite> <!-- Suite -->

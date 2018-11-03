@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SuiteTestFormRegistration">
+
+    <parameter name="path" value="/"/>
+
+    <test name="Test">
+        <classes>
+
+            <class name="manager.registration.TEST_001_Simple_Registration"/>
+
+        </classes>
+    </test>
+    <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SuiteTestForREPORTS">
+
+    <parameter name="path" value="/"/>
+
+    <test name="Test reports ">
+        <classes>
+
+            <class name="manager.reports.TEST_001_History_Call_Report"/>
+
+        </classes>
+    </test>
+    <!-- Test -->
+</suite> <!-- Suite -->
